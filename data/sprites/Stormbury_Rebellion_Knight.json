@@ -1,0 +1,42 @@
+﻿{
+    "roomHeight": 1000,
+    "roomWidth": 2000,
+
+    "players": [
+        {
+            "name": "player1",
+            "x": 567,
+            "y": 396,
+            "velX": 0,
+            "velY": 0,
+            "prevX": 213,
+            "prevY": 443,
+            "dX": 0,
+            "dY": 0,
+            "width": 16,
+            "height": 16,
+            "speed": 8.5,
+            "facing": 1,
+            "jumping": false,
+            "grounded": false,
+            "state": "idleRight",
+            "statePrev": "idleRight",
+            "fillStyle": "white",
+            "lastWallJump": 0,
+            "canExtraJump": true,
+            "jumpsLeft": 2,
+            "friction": 0.5,
+            "gravity": 0.25,
+            "gravityMax": 9,
+            "grabbedState": 0,
+            "grabbedRope": -1,
+            "grabbedLink": -1,
+            "grabbedOffsetV": 1,
+            "grabbedOffsetX": 0,
+            "grabbedOffsetY": 0,
+            "viewport": {
+                "x": 0, "y": 0, "width": 800, "height": 300, "fillStyle": "lime"
+            }
+        }
+    ]
+}
